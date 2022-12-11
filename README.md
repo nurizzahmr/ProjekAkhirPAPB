@@ -9,5 +9,5 @@
 
 ## Aplikasi SI BASE
 <ol style="text-align: justify">
-SI BASE adalah aplikasi bertemakan pendidikan berbasis Android yang dikembangkan dengan firebase sebagai alat bantu dalam pengembangan sistem. Aplikasi ini berfungsi untuk melihat data-data dari mahasiswa Program Studi Sistem Informasi Universitas Brawijaya yang meliputi Foto, Nama, Tempat & Tanggal Lahir, Asal Daerah, serta Media Sosial yang nantinya dapat digunakan untuk berbagai keperluan.
+SI BASE adalah aplikasi bertemakan pendidikan berbasis Android yang dikembangkan dengan firebase sebagai alat bantu dalam pengembangan sistem. Aplikasi ini berfungsi untuk melihat, menambah, dan mengupdate data-data dari mahasiswa Program Studi Sistem Informasi Universitas Brawijaya yang meliputi Foto, Nama, Tempat & Tanggal Lahir, Asal Daerah, serta Media Sosial yang nantinya dapat digunakan untuk berbagai keperluan.
 </ol>
