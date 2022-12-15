@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProjekAkhir</string>
+    <string name="daftar"><b><u>Daftar disini</u></b></string>
+    <string name="masuk"><b><u>Masuk disini</u></b></string>
+</resources>

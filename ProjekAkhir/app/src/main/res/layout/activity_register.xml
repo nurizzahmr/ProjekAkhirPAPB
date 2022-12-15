@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#05B1BC">
+
+    <TextView
+        android:id="@+id/halo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Halo!"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <TextView
+        android:id="@+id/isi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/poppins"
+        android:text="Silahkan isi form di bawah untuk daftar"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.362"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:foregroundTint="@color/white"
+        android:hint="      Nama"
+        android:inputType="textPersonName"
+        android:textColorHint="#474747"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/notelp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/notelp"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:foregroundTint="@color/white"
+        android:hint="      No telepon"
+        android:inputType="phone"
+        android:textColorHint="#474747"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:foregroundTint="@color/white"
+        android:hint="      Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#474747"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:foregroundTint="@color/white"
+        android:hint="     Password"
+        android:inputType="textPassword"
+        android:textColorHint="#474747"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/password2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:foregroundTint="@color/white"
+        android:hint="      Ulangi Password"
+        android:inputType="textPassword"
+        android:textColorHint="#474747"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/daftar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/daftar"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="@font/poppins"
+        android:text="Daftar"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/atau"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/atau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="atau"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="524dp" />
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins"
+        android:foregroundTint="@color/white"
+        android:text="Masuk dengan Google"
+        android:textAllCaps="false"
+        android:textColor="#474747"
+        app:layout_constraintBottom_toTopOf="@+id/akun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/atau"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/akun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:fontFamily="@font/poppins"
+        android:text="Telah memiliki akun?"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/atau" />
+
+    <TextView
+        android:id="@+id/disini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/masuk"
+        android:textColor="#062C30"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/akun"
+        app:layout_constraintTop_toBottomOf="@+id/daftar"
+        app:layout_constraintVertical_bias="0.936" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

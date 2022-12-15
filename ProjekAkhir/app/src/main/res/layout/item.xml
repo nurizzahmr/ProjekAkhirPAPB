@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <ImageView
+            android:id="@id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="119dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/foto" />
+
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/image"
+            android:ems="11"
+            android:text="Nama"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/ttl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@id/image"
+            android:ems="11"
+            android:text="TTL"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/asal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="22dp"
+            android:layout_toRightOf="@id/image"
+            android:ems="11"
+            android:text="Asal daerah"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/medsos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="43dp"
+            android:layout_toRightOf="@id/image"
+            android:ems="11"
+            android:text="Media Sosial"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <ImageButton
+            android:id="@+id/ubah"
+            android:layout_width="97dp"
+            android:layout_height="33dp"
+            android:layout_below="@id/medsos"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/image"
+            android:background="@drawable/btn_edit"
+            android:src="@drawable/pen" />
+
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_width="107dp"
+            android:layout_height="34dp"
+            android:layout_below="@id/medsos"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/ubah"
+            android:background="@drawable/btn_del"
+            android:src="@drawable/delete" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
